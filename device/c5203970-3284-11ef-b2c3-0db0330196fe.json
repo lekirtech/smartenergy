@@ -1,0 +1,82 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "c4f09df0-3284-11ef-b2c3-0db0330196fe"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "c5203970-3284-11ef-b2c3-0db0330196fe"
+    },
+    "label" : null,
+    "name" : "HVAC",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "hvac"
+  },
+  "credentials" : {
+    "credentialsId" : "dMR6h5SV785wMC4UObE0",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1719273769504,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1719273769504,
+      "longValue" : 1719273769501,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "type",
+      "lastUpdateTs" : 1719273129661,
+      "longValue" : null,
+      "strValue" : "hvac"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.35,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1719273129661,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.48,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1719273129661,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
