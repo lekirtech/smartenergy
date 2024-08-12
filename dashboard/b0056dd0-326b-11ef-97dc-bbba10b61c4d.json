@@ -5358,7 +5358,7 @@
       "settings" : {
         "stateControllerId" : "entity",
         "showTitle" : true,
-        "showDashboardsSelect" : false,
+        "showDashboardsSelect" : true,
         "showEntitiesSelect" : true,
         "showDashboardTimewindow" : true,
         "showDashboardExport" : true,
