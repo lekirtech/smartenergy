@@ -5682,7 +5682,7 @@
               },
               "tooltipLabelColor" : "rgba(0, 0, 0, 0.76)"
             },
-            "title" : "Voltage",
+            "title" : "Voltage Anomalies",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
