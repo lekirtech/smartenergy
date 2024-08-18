@@ -1392,7 +1392,7 @@
               "thresholds" : [ {
                 "type" : "constant",
                 "yAxisId" : "default",
-                "units" : "V",
+                "units" : "kWh",
                 "decimals" : 0,
                 "lineColor" : "#FF0000",
                 "lineType" : "solid",
@@ -1410,11 +1410,11 @@
                   "style" : "normal"
                 },
                 "labelColor" : null,
-                "value" : 240
+                "value" : 900
               }, {
                 "type" : "constant",
                 "yAxisId" : "default",
-                "units" : "V",
+                "units" : "kWh",
                 "decimals" : 0,
                 "lineColor" : "#FFDB00",
                 "lineType" : "solid",
@@ -1432,11 +1432,11 @@
                   "style" : "normal"
                 },
                 "labelColor" : null,
-                "value" : 235
+                "value" : 650
               }, {
                 "type" : "constant",
                 "yAxisId" : "default",
-                "units" : "V",
+                "units" : "kWh",
                 "decimals" : 0,
                 "lineColor" : "#FFDB00",
                 "lineType" : "solid",
@@ -1454,13 +1454,13 @@
                   "style" : "normal"
                 },
                 "labelColor" : null,
-                "value" : 205
+                "value" : 450
               }, {
                 "type" : "constant",
                 "yAxisId" : "default",
-                "units" : "V",
+                "units" : "kWh",
                 "decimals" : 0,
-                "lineColor" : "#FF0000",
+                "lineColor" : "#0098FF",
                 "lineType" : "solid",
                 "lineWidth" : 2,
                 "startSymbol" : "none",
@@ -1559,13 +1559,14 @@
               },
               "legendValueColor" : "rgba(0, 0, 0, 0.87)",
               "legendConfig" : {
+                "direction" : "column",
                 "position" : "bottom",
                 "sortDataKeys" : true,
                 "showMin" : true,
                 "showMax" : true,
                 "showAvg" : true,
                 "showTotal" : true,
-                "showLatest" : true
+                "showLatest" : false
               },
               "showTooltip" : true,
               "tooltipTrigger" : "axis",
