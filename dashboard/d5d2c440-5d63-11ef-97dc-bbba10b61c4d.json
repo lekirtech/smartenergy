@@ -5707,7 +5707,7 @@
                 "settings" : {
                   "position" : "center",
                   "font" : {
-                    "size" : 52,
+                    "size" : 40,
                     "sizeUnit" : "px",
                     "family" : "Roboto",
                     "weight" : "500",
