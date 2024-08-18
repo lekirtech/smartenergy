@@ -6673,6 +6673,124 @@
           "row" : 0,
           "col" : 0,
           "id" : "0e0ef04e-55d2-f6b5-466b-d760959f2dc0"
+        },
+        "f4821712-84d7-05c4-dabe-4516d9a87ea1" : {
+          "type" : "alarm",
+          "sizeX" : 13,
+          "sizeY" : 5,
+          "config" : {
+            "timewindow" : {
+              "realtime" : {
+                "interval" : 1000,
+                "timewindowMs" : 86400000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "4px",
+            "settings" : {
+              "enableSelection" : true,
+              "enableSearch" : true,
+              "displayDetails" : true,
+              "allowAcknowledgment" : true,
+              "allowClear" : true,
+              "allowAssign" : true,
+              "displayComments" : true,
+              "displayPagination" : true,
+              "defaultPageSize" : 10,
+              "defaultSortOrder" : "-createdTime",
+              "enableSelectColumnDisplay" : false,
+              "alarmsTitle" : "Alarms",
+              "enableFilter" : true
+            },
+            "title" : "New Alarms table",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 2px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "alarmSource" : {
+              "type" : "entity",
+              "name" : "alarms",
+              "entityAliasId" : "ef9bafc7-dd9a-bcff-e867-3c2c1f692b91",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "createdTime",
+                "type" : "alarm",
+                "label" : "Created time",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.7308410188824108
+              }, {
+                "name" : "originator",
+                "type" : "alarm",
+                "label" : "Originator",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.056085530105439485
+              }, {
+                "name" : "type",
+                "type" : "alarm",
+                "label" : "Type",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.10212012352561795
+              }, {
+                "name" : "severity",
+                "type" : "alarm",
+                "label" : "Severity",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.1777349980531262
+              }, {
+                "name" : "status",
+                "type" : "alarm",
+                "label" : "Status",
+                "color" : "#607d8b",
+                "settings" : { },
+                "_hash" : 0.7977920750136249
+              }, {
+                "name" : "assignee",
+                "type" : "alarm",
+                "label" : "Assignee",
+                "color" : "#9c27b0",
+                "settings" : { },
+                "_hash" : 0.8678751039018493
+              } ]
+            },
+            "alarmsPollingInterval" : 5,
+            "showTitleIcon" : false,
+            "titleIcon" : null,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "widgetStyle" : { },
+            "displayTimewindow" : true,
+            "actions" : { },
+            "datasources" : [ ],
+            "alarmsMaxCountLoad" : 0,
+            "alarmsFetchSize" : 100,
+            "alarmFilterConfig" : {
+              "statusList" : [ ],
+              "severityList" : [ ],
+              "typeList" : [ ],
+              "searchPropagatedAlarms" : true
+            },
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
+          },
+          "id" : "f4821712-84d7-05c4-dabe-4516d9a87ea1",
+          "typeFullFqn" : "system.alarm_widgets.alarms_table"
         }
       },
       "states" : {
@@ -6998,6 +7116,12 @@
                   "sizeY" : 8,
                   "row" : 0,
                   "col" : 11
+                },
+                "f4821712-84d7-05c4-dabe-4516d9a87ea1" : {
+                  "sizeX" : 14,
+                  "sizeY" : 9,
+                  "row" : 32,
+                  "col" : 0
                 }
               },
               "gridSettings" : {
@@ -7242,6 +7366,16 @@
             "resolveMultiple" : true,
             "entityType" : "DEVICE",
             "entityList" : [ "2ee78780-37d2-11ef-97dc-bbba10b61c4d", "71a9b500-37cf-11ef-97dc-bbba10b61c4d", "d5ecb5c0-37d0-11ef-97dc-bbba10b61c4d", "91ed5f40-37d1-11ef-97dc-bbba10b61c4d", "3642ebf0-37d2-11ef-97dc-bbba10b61c4d", "fee6ef00-37cf-11ef-97dc-bbba10b61c4d" ]
+          }
+        },
+        "ef9bafc7-dd9a-bcff-e867-3c2c1f692b91" : {
+          "id" : "ef9bafc7-dd9a-bcff-e867-3c2c1f692b91",
+          "alias" : "Thermostats",
+          "filter" : {
+            "type" : "deviceType",
+            "resolveMultiple" : true,
+            "deviceNameFilter" : "",
+            "deviceTypes" : [ "thermostat" ]
           }
         }
       },
