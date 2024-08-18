@@ -5058,7 +5058,7 @@
                   "style" : "normal"
                 },
                 "labelColor" : null,
-                "value" : 900
+                "value" : 250000
               }, {
                 "type" : "constant",
                 "yAxisId" : "default",
@@ -5080,7 +5080,7 @@
                   "style" : "normal"
                 },
                 "labelColor" : null,
-                "value" : 650
+                "value" : 189000
               }, {
                 "type" : "constant",
                 "yAxisId" : "default",
@@ -5102,7 +5102,7 @@
                   "style" : "normal"
                 },
                 "labelColor" : null,
-                "value" : 450
+                "value" : 45000
               }, {
                 "type" : "constant",
                 "yAxisId" : "default",
@@ -5124,7 +5124,7 @@
                   "style" : "normal"
                 },
                 "labelColor" : null,
-                "value" : 200
+                "value" : 12000
               } ],
               "dataZoom" : true,
               "stack" : false,
