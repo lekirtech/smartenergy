@@ -866,114 +866,6 @@
           "id" : "2dcb5560-c55f-e238-022e-69baba7c2022",
           "typeFullFqn" : "system.alarm_widgets.alarms_table"
         },
-        "f9fcbc13-1a44-5114-a294-c6831e3494ab" : {
-          "type" : "timeseries",
-          "sizeX" : 17,
-          "sizeY" : 12,
-          "config" : {
-            "datasources" : [ {
-              "type" : "device",
-              "deviceId" : "71a9b500-37cf-11ef-97dc-bbba10b61c4d",
-              "entityAliasId" : "a0faf37a-3c5d-e721-f445-de7914947895",
-              "dataKeys" : [ {
-                "name" : "energy",
-                "type" : "timeseries",
-                "label" : "Energy Consumed",
-                "color" : "#673ab7",
-                "settings" : {
-                  "showLines" : false,
-                  "fillLines" : false,
-                  "showPoints" : false,
-                  "showSeparateAxis" : false,
-                  "axisPosition" : "left",
-                  "axisTickDecimals" : 1
-                },
-                "_hash" : 0.5693030217652919
-              } ],
-              "alarmFilterConfig" : {
-                "statusList" : [ "ACTIVE" ]
-              }
-            } ],
-            "timewindow" : {
-              "hideInterval" : false,
-              "hideAggregation" : false,
-              "hideAggInterval" : false,
-              "selectedTab" : 0,
-              "realtime" : {
-                "timewindowMs" : 86400000,
-                "interval" : 3600000
-              },
-              "aggregation" : {
-                "type" : "SUM",
-                "limit" : 200
-              }
-            },
-            "showTitle" : true,
-            "backgroundColor" : "#fff",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "8px",
-            "settings" : {
-              "shadowSize" : 14,
-              "fontColor" : "#545454",
-              "fontSize" : 10,
-              "xaxis" : {
-                "showLabels" : true,
-                "color" : "#545454"
-              },
-              "yaxis" : {
-                "showLabels" : true,
-                "color" : "#545454",
-                "title" : "Energy, kWh",
-                "titleAngle" : 90
-              },
-              "grid" : {
-                "color" : "#545454",
-                "tickColor" : "#DDDDDD",
-                "verticalLines" : false,
-                "horizontalLines" : true,
-                "outlineWidth" : 0
-              },
-              "stack" : true,
-              "tooltipIndividual" : false,
-              "defaultBarWidth" : 600,
-              "showLegend" : true,
-              "legendConfig" : {
-                "position" : "bottom",
-                "showMin" : true,
-                "showMax" : true,
-                "showAvg" : true,
-                "showTotal" : true
-              }
-            },
-            "title" : "Energy consumption",
-            "dropShadow" : false,
-            "enableFullscreen" : true,
-            "titleStyle" : {
-              "fontSize" : "20px",
-              "fontWeight" : "bold",
-              "opacity" : "0.67",
-              "padding" : "5px 10px 5px 0px"
-            },
-            "mobileHeight" : null,
-            "widgetStyle" : {
-              "borderBottom" : "solid 1px #aaa",
-              "borderRight" : "solid 1px #aaa"
-            },
-            "useDashboardTimewindow" : false,
-            "actions" : { },
-            "enableDataExport" : true,
-            "units" : "kWh",
-            "decimals" : 4,
-            "showTitleIcon" : false,
-            "titleTooltip" : "",
-            "widgetCss" : "",
-            "pageSize" : 1024,
-            "noDataDisplayMessage" : "",
-            "displayTimewindow" : true
-          },
-          "id" : "f9fcbc13-1a44-5114-a294-c6831e3494ab",
-          "typeFullFqn" : "system.charts.timeseries_bars_flot"
-        },
         "762e5f79-91b0-5509-5b31-4e8cf685b974" : {
           "type" : "timeseries",
           "sizeX" : 14,
@@ -5346,13 +5238,6 @@
                   "sizeX" : 28,
                   "sizeY" : 11,
                   "row" : 12,
-                  "col" : 0
-                },
-                "f9fcbc13-1a44-5114-a294-c6831e3494ab" : {
-                  "sizeX" : 48,
-                  "sizeY" : 12,
-                  "mobileHeight" : null,
-                  "row" : 23,
                   "col" : 0
                 },
                 "762e5f79-91b0-5509-5b31-4e8cf685b974" : {
