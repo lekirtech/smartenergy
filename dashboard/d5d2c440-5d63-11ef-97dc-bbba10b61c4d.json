@@ -1,7 +1,14 @@
 {
   "entityType" : "DASHBOARD",
   "entity" : {
-    "assignedCustomers" : null,
+    "assignedCustomers" : [ {
+      "customerId" : {
+        "entityType" : "CUSTOMER",
+        "id" : "b3eedd40-31cc-11ef-97dc-bbba10b61c4d"
+      },
+      "title" : "Public",
+      "public" : true
+    } ],
     "configuration" : {
       "widgets" : {
         "783e83b2-bb20-460b-b4a4-7fbbc08aa27c" : {
@@ -5350,7 +5357,7 @@
       },
       "settings" : {
         "stateControllerId" : "entity",
-        "showTitle" : true,
+        "showTitle" : false,
         "showDashboardsSelect" : false,
         "showEntitiesSelect" : true,
         "showDashboardTimewindow" : true,
