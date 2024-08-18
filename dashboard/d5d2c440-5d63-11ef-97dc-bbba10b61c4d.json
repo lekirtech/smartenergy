@@ -5987,7 +5987,7 @@
                 "aggregationType" : "SUM",
                 "funcBody" : null,
                 "usePostProcessing" : true,
-                "postFuncBody" : "return value*0.197;",
+                "postFuncBody" : "return value*0.197*0.20;",
                 "comparisonEnabled" : null
               } ]
             } ],
