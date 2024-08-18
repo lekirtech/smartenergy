@@ -6951,7 +6951,7 @@
             "main" : {
               "widgets" : {
                 "17ad8f4c-da3c-6a50-99ae-357e27f0af40" : {
-                  "sizeX" : 44,
+                  "sizeX" : 48,
                   "sizeY" : 12,
                   "row" : 8,
                   "col" : 0
@@ -6970,7 +6970,7 @@
                   "col" : 21
                 },
                 "783e83b2-bb20-460b-b4a4-7fbbc08aa27c" : {
-                  "sizeX" : 11,
+                  "sizeX" : 15,
                   "sizeY" : 12,
                   "row" : 20,
                   "col" : 33
@@ -6982,7 +6982,7 @@
                   "col" : 0
                 },
                 "f65dcfde-a51c-89c7-66ff-8449bb2da9c4" : {
-                  "sizeX" : 11,
+                  "sizeX" : 15,
                   "sizeY" : 8,
                   "row" : 0,
                   "col" : 33
