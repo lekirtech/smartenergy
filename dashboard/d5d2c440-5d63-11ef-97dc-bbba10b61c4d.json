@@ -579,37 +579,54 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "8px",
             "settings" : {
-              "shadowSize" : 4,
-              "fontColor" : "#545454",
+              "stack" : false,
+              "enableSelection" : true,
               "fontSize" : 10,
+              "fontColor" : "#545454",
+              "showTooltip" : true,
+              "tooltipIndividual" : false,
+              "tooltipCumulative" : false,
+              "hideZeros" : false,
+              "tooltipValueFormatter" : "",
+              "grid" : {
+                "verticalLines" : true,
+                "horizontalLines" : true,
+                "outlineWidth" : 1,
+                "color" : "#545454",
+                "backgroundColor" : null,
+                "tickColor" : "#DDDDDD"
+              },
               "xaxis" : {
+                "title" : null,
                 "showLabels" : true,
                 "color" : "#545454"
               },
               "yaxis" : {
+                "min" : null,
+                "max" : null,
+                "title" : "Temperature, °C",
                 "showLabels" : true,
                 "color" : "#545454",
-                "title" : "Temperature, °C",
-                "tickDecimals" : 1
+                "tickSize" : null,
+                "tickDecimals" : 1,
+                "ticksFormatter" : ""
               },
-              "grid" : {
-                "color" : "#545454",
-                "tickColor" : "#DDDDDD",
-                "verticalLines" : true,
-                "horizontalLines" : true,
-                "outlineWidth" : 1
-              },
-              "stack" : false,
-              "tooltipIndividual" : false,
+              "shadowSize" : 4,
               "smoothLines" : true,
+              "thresholdsLineWidth" : null,
+              "comparisonEnabled" : false,
               "showLegend" : true,
               "legendConfig" : {
                 "position" : "bottom",
+                "sortDataKeys" : false,
+                "direction" : "column",
                 "showMin" : true,
                 "showMax" : true,
                 "showAvg" : true,
-                "showTotal" : false
-              }
+                "showTotal" : true,
+                "showLatest" : false
+              },
+              "customLegendEnabled" : false
             },
             "title" : "Temperature and Power History",
             "dropShadow" : false,
@@ -6388,17 +6405,23 @@
       },
       "timewindow" : {
         "hideInterval" : false,
+        "hideLastInterval" : false,
+        "hideQuickInterval" : false,
         "hideAggregation" : false,
         "hideAggInterval" : false,
+        "hideTimezone" : false,
         "selectedTab" : 0,
         "realtime" : {
+          "realtimeType" : 0,
           "timewindowMs" : 86400000,
+          "quickInterval" : "CURRENT_DAY",
           "interval" : 900000
         },
         "aggregation" : {
-          "type" : "AVG",
+          "type" : "SUM",
           "limit" : 2500
-        }
+        },
+        "timezone" : null
       },
       "settings" : {
         "stateControllerId" : "entity",
