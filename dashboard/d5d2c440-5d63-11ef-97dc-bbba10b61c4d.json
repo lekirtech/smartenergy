@@ -5171,7 +5171,7 @@
               },
               "padding" : "12px"
             },
-            "title" : "Energy consumption",
+            "title" : "Energy consumption Anomalies",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -5746,9 +5746,9 @@
             "main" : {
               "widgets" : {
                 "2dcb5560-c55f-e238-022e-69baba7c2022" : {
-                  "sizeX" : 28,
+                  "sizeX" : 48,
                   "sizeY" : 11,
-                  "row" : 12,
+                  "row" : 23,
                   "col" : 0
                 },
                 "762e5f79-91b0-5509-5b31-4e8cf685b974" : {
@@ -5802,9 +5802,9 @@
                   "col" : 11
                 },
                 "04dcd06f-95e2-5b69-6148-43a7c44984be" : {
-                  "sizeX" : 48,
+                  "sizeX" : 28,
                   "sizeY" : 11,
-                  "row" : 23,
+                  "row" : 12,
                   "col" : 0
                 }
               },
