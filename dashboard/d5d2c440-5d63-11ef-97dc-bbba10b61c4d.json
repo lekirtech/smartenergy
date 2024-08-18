@@ -4812,7 +4812,7 @@
                   "style" : "normal"
                 },
                 "labelColor" : null,
-                "value" : 250000
+                "value" : 220000
               }, {
                 "type" : "constant",
                 "yAxisId" : "default",
