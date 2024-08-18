@@ -643,50 +643,6 @@
           "id" : "40d59849-9d6a-6de4-a023-76ea9fe29a5a",
           "typeFullFqn" : "system.charts.basic_timeseries"
         },
-        "5c002504-7d9d-856e-bdf6-64c7c84ef790" : {
-          "type" : "rpc",
-          "sizeX" : 7,
-          "sizeY" : 8,
-          "config" : {
-            "targetDeviceAliases" : [ ],
-            "showTitle" : false,
-            "backgroundColor" : "#fff",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "0px",
-            "settings" : {
-              "requestTimeout" : 500,
-              "maxValue" : 40,
-              "initialValue" : 22,
-              "minValue" : 10,
-              "title" : "HVAC Control",
-              "getValueMethod" : "getTemperature",
-              "setValueMethod" : "setTemperature"
-            },
-            "title" : "New Knob Control",
-            "dropShadow" : false,
-            "enableFullscreen" : false,
-            "widgetStyle" : {
-              "borderBottom" : "solid 1px #aaa",
-              "borderRight" : "solid 1px #aaa"
-            },
-            "titleStyle" : {
-              "fontSize" : "16px",
-              "fontWeight" : 400
-            },
-            "useDashboardTimewindow" : true,
-            "showLegend" : false,
-            "actions" : { },
-            "decimals" : 1,
-            "datasources" : [ ],
-            "enableDataExport" : true,
-            "targetDevice" : {
-              "type" : "device",
-              "deviceId" : "d5ecb5c0-37d0-11ef-97dc-bbba10b61c4d"
-            }
-          },
-          "id" : "5c002504-7d9d-856e-bdf6-64c7c84ef790",
-          "typeFullFqn" : "system.control_widgets.knob_control"
-        },
         "27efeadc-842a-b232-fe8e-1a41bec1e630" : {
           "type" : "latest",
           "sizeX" : 19,
@@ -4740,52 +4696,6 @@
           "row" : 0,
           "col" : 0,
           "id" : "4c92c0df-cf50-a034-0906-9f5eec7db6a5"
-        },
-        "856e558f-5940-4b79-946e-4b4c40b70d72" : {
-          "typeFullFqn" : "system.control_widgets.round_switch",
-          "type" : "rpc",
-          "sizeX" : 2.5,
-          "sizeY" : 2,
-          "config" : {
-            "targetDeviceAliases" : [ ],
-            "showTitle" : false,
-            "backgroundColor" : "#e6e7e8",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "0px",
-            "settings" : {
-              "title" : "HVAC switch",
-              "initialValue" : false,
-              "retrieveValueMethod" : "rpc",
-              "valueKey" : "value",
-              "getValueMethod" : "getValue",
-              "parseValueFunction" : "return data ? true : false;",
-              "setValueMethod" : "setValue",
-              "convertValueFunction" : "return value;",
-              "requestTimeout" : 500,
-              "requestPersistent" : false,
-              "persistentPollingInterval" : 5000
-            },
-            "title" : "Round switch",
-            "dropShadow" : true,
-            "enableFullscreen" : false,
-            "widgetStyle" : { },
-            "titleStyle" : {
-              "fontSize" : "16px",
-              "fontWeight" : 400
-            },
-            "useDashboardTimewindow" : true,
-            "showLegend" : false,
-            "actions" : { },
-            "decimals" : 2,
-            "datasources" : [ ],
-            "targetDevice" : {
-              "type" : "device",
-              "deviceId" : "d5ecb5c0-37d0-11ef-97dc-bbba10b61c4d"
-            }
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "856e558f-5940-4b79-946e-4b4c40b70d72"
         }
       },
       "states" : {
@@ -5071,12 +4981,6 @@
                   "row" : 0,
                   "col" : 22
                 },
-                "5c002504-7d9d-856e-bdf6-64c7c84ef790" : {
-                  "sizeX" : 7,
-                  "sizeY" : 7,
-                  "row" : 16,
-                  "col" : 40
-                },
                 "27efeadc-842a-b232-fe8e-1a41bec1e630" : {
                   "sizeX" : 19,
                   "sizeY" : 11,
@@ -5088,12 +4992,6 @@
                   "sizeY" : 11,
                   "row" : 12,
                   "col" : 19
-                },
-                "856e558f-5940-4b79-946e-4b4c40b70d72" : {
-                  "sizeX" : 7,
-                  "sizeY" : 4,
-                  "row" : 12,
-                  "col" : 40
                 }
               },
               "gridSettings" : {
