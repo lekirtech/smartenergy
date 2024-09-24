@@ -1,0 +1,22 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "description" : "Test"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "b4a0bfa0-7a2f-11ef-97dc-bbba10b61c4d"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "Test dashboard",
+    "title" : "Test dashboard"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
